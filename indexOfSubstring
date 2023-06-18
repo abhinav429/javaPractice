@@ -1,0 +1,15 @@
+
+public class string {
+    public static void main(String args[]) {
+        String original = "Hello readers";
+        int foundIndex = original.indexOf("readers");
+
+        if (foundIndex == -1) {
+            System.out.println("Not found");
+        } else {
+            System.out.println("Found at index " + foundIndex);
+        }
+
+    }
+
+}
