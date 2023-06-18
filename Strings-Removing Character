@@ -1,0 +1,9 @@
+
+public class string {
+    public static void main(String args[]){
+        StringBuilder given=new StringBuilder("Hello");
+        System.out.println(given.deleteCharAt(2));
+    }
+    
+}
+
