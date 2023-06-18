@@ -1,0 +1,25 @@
+
+public class string {
+    public static void main(String args[]){
+        String old="HELLO";
+        String fresh="";
+        for(char i:old.toCharArray()){
+            if(Character.isUpperCase(i)){
+                
+                fresh+=Character.toLowerCase(i);
+
+            }
+            else{
+                fresh+=Character.toUpperCase(i);
+            }
+            
+        }
+        System.out.println(fresh);
+
+        
+
+      
+    }
+    
+}
+
